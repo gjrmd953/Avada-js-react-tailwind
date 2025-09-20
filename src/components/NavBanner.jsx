@@ -9,9 +9,9 @@ const NavBanner = () => {
       className='w-full bg-[url(/banner.png)] relative bg-cover bg-center'
       >
       <Container>
-        <div className="h-[554px]">
+        <div className="h-[654px]">
           <nav className="flex justify-between items-center py-6">
-            <div className="">
+            <div className="cursor-pointer">
               <img src={LogoImg} alt="" />
             </div>
             <div className="">
@@ -25,7 +25,7 @@ const NavBanner = () => {
             </div>
           </nav>
           <div className="items-center">
-            <h2 className="font-IBP font-bold text-[72px] text-white px-[220px] mt-[138px] mb-[257px] text-center ">
+            <h2 className="font-IBP font-bold text-[72px] text-white px-[220px] mt-[118px] text-center ">
               Experience The Spirit Of
               Adventure Sports
             </h2>
@@ -35,7 +35,7 @@ const NavBanner = () => {
       <img
         src={BannerDownImg}
         alt="Wave Shape"
-        className="absolute bottom-[-25px] left-0 right-0 w-full"
+        className="absolute bottom-[-25px] left-0 right-0 w-full mt-[33px]"
       />
     </div>
   );
